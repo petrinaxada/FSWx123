@@ -1,0 +1,15 @@
+.boxez{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 3px;
+    text-align: center;
+  }  
+  .theCont{
+    padding: 10px;
+  }
+  
+  #root{
+    display: flex;
+  }
