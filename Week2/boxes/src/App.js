@@ -8,11 +8,11 @@ function App() {
   return (
       [...Array(boxKey)].map((e, i) => <Card
       Title= {"title" + (i + 1)}
-      subTitle= {"subtitle " + (i + 1)}
-      desc= {"description " + (i +1)}
-      boxStyle= {{backgroundColor: boxArray[i], width: "100px"}}
+      subtitle= {"subtitle" + (i + 1)}
+      description= {"description" + (i +1)}
+      boxStyle= {{backgroundColor: boxArray[i], width: "200px"}}
       />)
   );
 }
 export default App;
-///ref:DCaviness&EYarborough///git
+///ref:DCaviness&EYarborough///
